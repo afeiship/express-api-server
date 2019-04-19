@@ -5,17 +5,14 @@
   "scripts": {
     "app:start": "pm2 start src/app.js",
     "app:stop": "pm2 stop koapp",
-    "app:dispose": "pm2 delete koapp"
+    "app:dispose": "pm2 delete koapp",
+    "dev": "node src/app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/afeiship/koa-api-server.git"
   },
-  "keywords": [
-    "koa",
-    "api",
-    "server"
-  ],
+  "keywords": ["koa", "api", "server"],
   "author": "afei",
   "license": "MIT",
   "bugs": {

@@ -8,3 +8,8 @@
 ./bin/restart.sh
 ./bin/status.sh
 ```
+
+## api
+~~~
+http://0.0.0.0:4210/nodeapp/v1/hello_get
+~~~
