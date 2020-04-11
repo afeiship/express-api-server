@@ -10,6 +10,10 @@
 ```
 
 ## api
-~~~
-http://0.0.0.0:4210/nodeapp/v1/hello_get
-~~~
+```shell
+# run develop
+npm run dev
+
+# 2. test hello
+curl http://0.0.0.0:4002
+```
