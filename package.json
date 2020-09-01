@@ -28,15 +28,15 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/node": "^7.8.7",
-    "@babel/preset-env": "^7.9.5",
-    "nodemon": "^2.0.3",
-    "pm2": "^4.2.3",
-    "prettier": "^2.0.4"
+    "@babel/core": "^7.11.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
+    "nodemon": "^2.0.4",
+    "pm2": "^4.4.1",
+    "prettier": "^2.1.1"
   },
   "dependencies": {
-    "@feizheng/next-js-core2": "^2.4.4",
+    "@feizheng/next-js-core2": "^2.6.0",
     "express": "^4.17.1"
   }
 }
