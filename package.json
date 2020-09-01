@@ -1,10 +1,10 @@
 {
-  "name": "koa-api-server",
+  "name": "express-api-server",
   "version": "1.0.0",
-  "description": "Mini koa api server.",
+  "description": "Mini express api server.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/afeiship/koa-api-server.git"
+    "url": "git+https://github.com/afeiship/express-api-server.git"
   },
   "keywords": [
     "koa",
@@ -13,9 +13,9 @@
   ],
   "author": "afei",
   "bugs": {
-    "url": "https://github.com/afeiship/koa-api-server/issues"
+    "url": "https://github.com/afeiship/express-api-server/issues"
   },
-  "homepage": "https://github.com/afeiship/koa-api-server#readme",
+  "homepage": "https://github.com/afeiship/express-api-server#readme",
   "scripts": {
     "dev": "nodemon --exec babel-node src/app.js",
     "log:clean": "rm -rf */*.log",
