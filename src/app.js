@@ -6,4 +6,4 @@ const api = require('./api').default;
 
 app.use(express.json());
 app.get('/hello', api);
-app.listen(port, '127.0.0.1');
+app.listen(port);
