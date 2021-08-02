@@ -15,5 +15,5 @@
 npm run dev
 
 # 2. test hello
-curl http://0.0.0.0:4002
+curl http://0.0.0.0:4002/hello
 ```

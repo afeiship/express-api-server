@@ -5,5 +5,5 @@ const port = process.env.PORT || 4002;
 const api = require('./api').default;
 
 app.use(express.json());
-app.get('/', api);
+app.get('/hello', api);
 app.listen(port, '127.0.0.1');
